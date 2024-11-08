@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-import instagram from "../assets/instagram.png"
-import facebook from "../assets/facebook.png"
-import linkedin from "../assets/linkedin.png"
+import instagram from "../assets/instagram.png";
+import facebook from "../assets/facebook.png";
+import linkedin from "../assets/linkedin.png";
 
 const Footer = () => {
   return (
@@ -48,7 +48,9 @@ const Footer = () => {
           </div>
           <div>
             <div>
-              <h1 className="font-bold font-serif text-lg mb-2">Utility Pages</h1>
+              <h1 className="font-bold font-serif text-lg mb-2">
+                Utility Pages
+              </h1>
               <ul className="flex flex-col gap-1 font-thin">
                 <li>
                   <Link to="/">Style Guide</Link>
@@ -74,29 +76,47 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-2">
           <h1 className="font-serif font-extrabold text-lg">Subscribe</h1>
-          <input type="text" className="bg-white rounded-full p-3 w-[21rem]" placeholder="Enter your email here" />
-          <button className="bg-black rounded-full relative bottom-[3.25rem] left-48 w-[8rem] p-2">Subscribe</button>
+          <input
+            type="text"
+            className="bg-white rounded-full p-3 w-[21rem]"
+            placeholder="Enter your email here"
+          />
+          <button className="bg-black rounded-full relative bottom-[3.25rem] left-48 w-[8rem] p-2">
+            Subscribe
+          </button>
         </div>
       </div>
       <hr className="bg-white border-white border-1 w-full" />
       {/* contact details */}
       <div className="flex justify-between gap-20">
         <div className="flex flex-col">
-        <h1 className="font-serif font-extrabold text-sm">Subscribe</h1>
-        <h1 className="font-thin">Designed by fce team-1</h1>
+          <h1 className="font-serif font-extrabold text-sm">Subscribe</h1>
+          <h1 className="font-thin">Designed by fce team-1</h1>
         </div>
         <div className="flex flex-col">
-        <h1 className="font-serif font-extrabold text-sm">Contact Us</h1>
-        <h1 className="font-thin">+0 12 457 4578</h1>
+          <h1 className="font-serif font-extrabold text-sm">Contact Us</h1>
+          <h1 className="font-thin">+0 12 457 4578</h1>
         </div>
         <div className="flex flex-col">
-        <h1 className="font-serif font-extrabold text-sm">Address</h1>
-        <h1 className="font-thin">119 Tanglewood Lane Gulfport, MS 39503</h1>
+          <h1 className="font-serif font-extrabold text-sm">Address</h1>
+          <h1 className="font-thin">119 Tanglewood Lane Gulfport, MS 39503</h1>
         </div>
         <div className="flex gap-2">
-          <img src={facebook} alt="facebook" className="invert w-[2rem] h-[2rem]" />
-          <img src={instagram} alt="instagram" className="invert w-[2rem] h-[2rem]" />
-          <img src={linkedin} alt="linkedin" className="invert w-[2rem] h-[2rem]" />
+          <img
+            src={facebook}
+            alt="facebook"
+            className="invert w-[2rem] h-[2rem]"
+          />
+          <img
+            src={instagram}
+            alt="instagram"
+            className="invert w-[2rem] h-[2rem]"
+          />
+          <img
+            src={linkedin}
+            alt="linkedin"
+            className="invert w-[2rem] h-[2rem]"
+          />
         </div>
       </div>
     </div>
