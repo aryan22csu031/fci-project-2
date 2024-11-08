@@ -25,7 +25,9 @@ const Header = () => {
 
       {/* Get in touch button */}
       <div className="bg-white rounded-full px-3 py-1 hidden md:block">
-        <button>Get in touch</button>
+        <Link to="/projectdetails">
+          <button>Get in touch</button>
+        </Link>
       </div>
 
       {/* Mobile menu icon */}
