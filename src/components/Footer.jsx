@@ -90,7 +90,7 @@ const Footer = () => {
       {/* contact details */}
       <div className="flex justify-between gap-20">
         <div className="flex flex-col">
-          <h1 className="font-serif font-extrabold text-sm">Subscribe</h1>
+          <h1 className="font-serif font-extrabold text-sm">Copyright by</h1>
           <h1 className="font-thin">Designed by fce team-1</h1>
         </div>
         <div className="flex flex-col">
