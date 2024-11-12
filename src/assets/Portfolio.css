@@ -1,0 +1,59 @@
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.portfolio-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.portfolio-item {
+  width: calc(35%); /* Two items in a row with some space between them */
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-image {
+  width: 350px;
+  height: 350px; /* Set image height to 200px */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+h3 {
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+p {
+  text-align: left;
+  font-size: 1rem;
+  color: black;
+}
+
+.footer {
+  background-color: beige;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 40px;
+  font-weight: bold;
+}
