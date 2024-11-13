@@ -4,6 +4,12 @@ import tick from "../assets/aboutus/tick.png";
 import img3 from "../assets/aboutus/2.jpg";
 import img4 from "../assets/aboutus/profiles.png"
 import img5 from "../assets/aboutus/3.jpg";
+import img6 from "../assets/aboutus/4.jpg";
+import img7 from "../assets/aboutus/5.jpg";
+import img8 from "../assets/aboutus/6.jpg";
+import fb from "../assets/facebook.png";
+import insta from "../assets/instagram.png";
+import ll from "../assets/linkedin.png";
 const Aboutus = () => {
   return (
     <>
@@ -147,6 +153,47 @@ const Aboutus = () => {
               <img src={img5} alt="img5" className="w-[13rem] h-[15rem] rounded-lg relative right-[-5rem] top-[7rem]" />
             </div>
           </div>
+        </div>
+        <div className="flex flex-col w-fit gap-[2rem] my-[2rem] items-center">
+          <div>
+            <h1 className="font-serif font-bold text-4xl">Our team</h1>
+          </div>
+          <div className="flex gap-[1rem] items-center">
+            <div className="flex flex-col gap-1">
+              <img src={img6} alt="img6" className="w-[22rem] h-[24rem] rounded-lg" />
+              <p className="font-serif font-bold">Esther Howards</p>
+              <p className="font-thin">Founder</p>
+              <div className="flex gap-1 items-center absolute top-[106rem] left-[30rem]">
+                <img src={fb} alt="fb"  className="w-[1.5rem]" />
+                <img src={insta} alt="insta"  className="w-[1.5rem]" />
+                <img src={ll} alt="ll"  className="w-[1.5rem]" />
+              </div>
+            </div>
+            <div className="flex flex-col gap-1">
+              <img src={img7} alt="img7" className="w-[22rem] h-[24rem] rounded-lg" />
+              <p className="font-serif font-bold">Cameron Williamson</p>
+              <p className="font-thin">Marketing Head</p>
+              <div className="flex gap-1 items-center absolute top-[106rem] left-[53rem]">
+                <img src={fb} alt="fb"  className="w-[1.5rem]" />
+                <img src={insta} alt="insta"  className="w-[1.5rem]" />
+                <img src={ll} alt="ll"  className="w-[1.5rem]" />
+              </div>
+            </div>
+            <div className="flex flex-col gap-1">
+              <img src={img8} alt="img8" className="w-[22rem] h-[24rem] rounded-lg" />
+              <p className="font-serif font-bold">Liam Cooper</p>
+              <p className="font-thin">Marketing Head</p>
+              <div className="flex gap-1 items-center absolute top-[106rem] left-[76rem]">
+                <img src={fb} alt="fb"  className="w-[1.5rem]" />
+                <img src={insta} alt="insta"  className="w-[1.5rem]" />
+                <img src={ll} alt="ll"  className="w-[1.5rem]" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center gap-[2rem] bg-gray-400 rounded-2xl p-[2rem] w-[55rem]">
+          <h1 className="font-serif font-semibold text-4xl text-white">Enough talk, let's get to work</h1>
+          <button className="w-[7rem] p-1 bg-white rounded-2xl">Get in touch</button>
         </div>
       </div>
     </>
