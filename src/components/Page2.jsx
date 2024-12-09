@@ -3,7 +3,7 @@ import React from "react";
 
 const Page2 = () => {
   return (
-    <div className="page2 min-h-screen ">
+    <div className="page2 min-h-screen flex flex-col">
       <p className="text-[1.875vw] text-[#64CCC5] font-bold font-['Times_New_Roman'] text-center mt-[6vw] mb-[1.5vw]">
         Our Services
       </p>
@@ -14,7 +14,7 @@ const Page2 = () => {
         for your business
       </h1>
 
-      <div className="cards mt-[4vw] flex flex-col mb-[8vw]">
+      <div className="cards mt-[4vw] gap-[6rem] flex flex-col flex-wrap mb-[8vw]">
         <div className="line1 flex justify-between ml-[13.5vw] mr-[13.5vw]">
           <div className="card1 bg-[#000000] w-[22vw] h-[20vw] text-white  rounded-3xl p-10">
             <div className="icon bg-[#FFFFFF] rounded-full flex justify-center items-center w-20 h-20 mb-[3vw]">

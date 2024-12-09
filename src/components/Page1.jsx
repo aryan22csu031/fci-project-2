@@ -3,11 +3,11 @@ import FreetrialBtn from "./FreetrialBtn";
 
 const Page1 = () => {
   return (
-    <div className="page1 bg-black relative h-screen px-60 flex gap-10">
-      <div className="absolute top-[11%] -left-[1.9%]">
+    <div className="page1 bg-black relative h-fit px-60 flex gap-10">
+      <div className="absolute top-[11%] -left-[1.9%] sm:hidden">
         <img src="../src/assets/homepage/page1.png" alt="" />
       </div>
-      <div className="left text-white w-1/2 pt-[9vw]">
+      <div className="left relative text-white lg:w-1/2 sm:w-[10rem] pt-[9vw]">
         <h1 className="text-[3.75vw] font-['Times_New_Roman'] tracking-wide font-black leading-none">
           Ready to take your
         </h1>
@@ -24,14 +24,14 @@ const Page1 = () => {
         </p>
         <FreetrialBtn />
 
-        <div className="logos">
-          <h1 className="font-['Times_New_Roman'] text-[#64ccc5] mt-40 font-semibold text-[1.25vw]">
+        <div className="logos flex w-fit items-start flex-col lg:absolute lg:top-[25rem] lg:right-[45rem]">
+          <h1 className="relative font-['Times_New_Roman'] text-[#64ccc5] mt-40 font-semibold text-[1.25vw] top-[-2rem]">
             Trusted by Leading Brands
           </h1>
-          <div className="flex gap-4 mt-3">
-            <div>
+          <div className="flex">
+            <div className="relative bottom-[1.5rem]">
               <svg
-                width="148"
+                width="108"
                 height="54"
                 viewBox="0 0 148 54"
                 fill="none"
@@ -77,9 +77,9 @@ const Page1 = () => {
                 />
               </svg>
             </div>
-            <div>
+            <div className="relative bottom-[1.5rem]">
               <svg
-                width="149"
+                width="108"
                 height="58"
                 viewBox="0 0 149 58"
                 fill="none"
@@ -135,11 +135,10 @@ const Page1 = () => {
                 />
               </svg>
             </div>
-
-            <div>
+            <div className="relative bottom-[1.5rem]">
               <svg
-                width="148"
-                height="64"
+                width="88"
+                height="54"
                 viewBox="0 0 148 64"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -184,9 +183,9 @@ const Page1 = () => {
                 />
               </svg>
             </div>
-            <div>
+            <div className="relative bottom-[2rem]">
               <svg
-                width="222"
+                width="108"
                 height="70"
                 viewBox="0 0 222 70"
                 fill="none"
@@ -271,7 +270,7 @@ const Page1 = () => {
       </div>
       <div className="right w-1/2 flex items-center justify-start">
         <svg
-          width="750"
+          width="150"
           height="750"
           viewBox="0 0 750 750"
           fill="none"
