@@ -17,11 +17,31 @@ const Projectdetail = () => {
             alt="Hero"
             className="mx-auto rounded-xl shadow-lg md:w-[50rem]"
           />
-          <div className="flex items-center justify-center gap-3 relative bottom-[3rem] left-[28rem] w-fit">
-            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg"><span className="font-bold font-serif">Category: <br /></span><span className="font-thin">Cloud Solution</span></div>
-            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg"><span className="font-bold font-serif">Category: <br /></span><span className="font-thin">Cloud Solution</span></div>
-            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg"><span className="font-bold font-serif">Category: <br /></span><span className="font-thin">Cloud Solution</span></div>
-            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg"><span className="font-bold font-serif">Category: <br /></span><span className="font-thin">Cloud Solution</span></div>
+          <div className="flex items-center justify-center gap-3 relative lg:bottom-[3rem] lg:left-[22rem] sm:bottom-[-0.5rem] w-fit">
+            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg">
+              <span className="font-bold font-serif">
+                Category: <br />
+              </span>
+              <span className="font-thin">Cloud Solution</span>
+            </div>
+            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg">
+              <span className="font-bold font-serif">
+                Category: <br />
+              </span>
+              <span className="font-thin">Cloud Solution</span>
+            </div>
+            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg">
+              <span className="font-bold font-serif">
+                Category: <br />
+              </span>
+              <span className="font-thin">Cloud Solution</span>
+            </div>
+            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg">
+              <span className="font-bold font-serif">
+                Category: <br />
+              </span>
+              <span className="font-thin">Cloud Solution</span>
+            </div>
           </div>
         </div>
       </section>
@@ -79,10 +99,22 @@ const Projectdetail = () => {
           </div>
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-2xl font-semibold mb-8">Recent Projects</h2>
-            <div className="flex w-full justify-center items-center gap-[5rem]">
-              <img src={image2} alt="img2" className="w-[16rem] h-[20rem] rounded-lg" />
-              <img src={image3} alt="img2" className="w-[16rem] h-[20rem] rounded-lg" />
-              <img src={image4} alt="img2" className="w-[17rem] h-[20rem] rounded-lg" />
+            <div className="flex justify-center items-center lg:gap-[5rem] sm:gap-[1rem]">
+              <img
+                src={image2}
+                alt="img2"
+                className="lg:w-[16rem] lg:h-[20rem] sm:w-[14rem] sm:h-[10rem] rounded-lg"
+              />
+              <img
+                src={image3}
+                alt="img2"
+                className="lg:w-[16rem] lg:h-[20rem] sm:w-[14rem] sm:h-[10rem] rounded-lg"
+              />
+              <img
+                src={image4}
+                alt="img2"
+                className="lg:w-[16rem] lg:h-[20rem] sm:w-[14rem] sm:h-[10rem] rounded-lg"
+              />
             </div>
           </div>
         </div>
@@ -103,11 +135,7 @@ const Projectdetail = () => {
               <p className="text-sm text-gray-600">Creative UI Design</p>
             </div>
             <div className=" rounded-md p-4">
-              <img
-                src={image6}
-                alt="Project 2"
-                className="rounded mb-4"
-              />
+              <img src={image6} alt="Project 2" className="rounded mb-4" />
               <h3 className="text-lg font-semibold">Digital Strategy</h3>
               <p className="text-sm text-gray-600">Social Media Marketing</p>
             </div>
