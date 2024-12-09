@@ -14,7 +14,7 @@ const Aboutus = () => {
   return (
     <>
       <div className="bg-white flex flex-col items-center justify-center m-[3rem]">
-        <div className="section-1 flex justify-center w-[62rem] p-[3rem] rounded-2xl bg-black text-white relative">
+        <div className="section-1 flex justify-center p-[3rem] rounded-2xl bg-black text-white relative">
           <div className="flex flex-col gap-2">
             <p className="text-white font-thin">
               Pleasure and so read the was hope.
@@ -40,17 +40,17 @@ const Aboutus = () => {
           <div className="relative">
             <img
               src={img1}
-              className="w-[26rem] h-[28rem] rounded-xl z-10 absolute top-[5.5rem] left-[5rem]"
+              className="lg:w-[26rem] lg:h-[28rem] rounded-xl z-10 absolute top-[5.5rem] left-[5rem] sm:h-[20rem]"
               alt="img1"
             />
             <img
               src={img1}
-              className="w-[26rem] h-[28rem] rounded-xl z-9 absolute top-[4rem] left-[3rem] opacity-40"
+              className="lg:w-[26rem] lg:h-[28rem] rounded-xl z-9 absolute top-[4rem] left-[3rem] sm:h-[20rem] opacity-40"
               alt="img1"
             />
             <img
               src={img1}
-              className="w-[26rem] h-[28rem] rounded-xl z-8 top-[1.5rem] left-[1rem] opacity-30 relative"
+              className="lg:w-[26rem] lg:h-[28rem] rounded-xl z-8 top-[1.5rem] left-[1rem] sm:h-[20rem] opacity-30 relative"
               alt="img1"
             />
           </div>
@@ -93,7 +93,7 @@ const Aboutus = () => {
               He moonlights difficult engrossed it, sportsmen. Interested has{" "}
               <br /> all Devonshire difficulty gay assistance joy.
             </p>
-            <div className="flex relative gap-[8rem] mt-3">
+            <div className="flex relative lg:gap-[8rem] mt-3 sm:gap-[6rem]">
               <ul className="flex flex-col list-none gap-[1rem] text-white">
                 <li className="flex items-center gap-2 text-sm">
                   <img src={tick} alt="tick" className="w-[1.2rem]" /> Moonlight
@@ -108,7 +108,7 @@ const Aboutus = () => {
                   course gets living.
                 </li>
               </ul>
-              <ul className="flex flex-col list-none gap-[1rem] text-white">
+              <ul className="flex flex-col flex-wrap list-none gap-[1rem] text-white">
                 <li className="flex items-center gap-2 text-sm">
                   <img src={tick} alt="tick" className="w-[1.2rem]" />
                   Rooms oh fully taken by <br /> worse.
@@ -129,7 +129,7 @@ const Aboutus = () => {
               <img
                 src={img3}
                 alt="img3"
-                className="overflow-hidden w-[15rem] h-[20rem] opacity-40 rounded-lg"
+                className="overflow-hidden lg:w-[15rem] lg:h-[20rem] opacity-40 rounded-lg sm:w-[13rem] sm:h-[15rem] sm:mb-[3rem]"
               />
 
               <div className="flex gap-6 relative left-[2rem]">
@@ -154,39 +154,39 @@ const Aboutus = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-fit gap-[2rem] my-[2rem] items-center">
+        <div className="flex flex-col w-fit gap-[2rem] my-[3rem] items-center">
           <div>
             <h1 className="font-serif font-bold text-4xl">Our team</h1>
           </div>
           <div className="flex gap-[1rem] items-center">
             <div className="flex flex-col gap-1">
-              <img src={img6} alt="img6" className="w-[22rem] h-[24rem] rounded-lg" />
+              <img src={img6} alt="img6" className="lg:w-[22rem] lg:h-[24rem] sm:w-[15rem] sm:h-[13rem] rounded-lg" />
               <p className="font-serif font-bold">Esther Howards</p>
               <p className="font-thin">Founder</p>
               <div className="flex gap-1 items-center absolute top-[106rem] left-[30rem]">
-                <img src={fb} alt="fb"  className="w-[1.5rem]" />
-                <img src={insta} alt="insta"  className="w-[1.5rem]" />
-                <img src={ll} alt="ll"  className="w-[1.5rem]" />
+                <img src={fb} alt="fb"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
+                <img src={insta} alt="insta" className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
+                <img src={ll} alt="ll"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
               </div>
             </div>
             <div className="flex flex-col gap-1">
-              <img src={img7} alt="img7" className="w-[22rem] h-[24rem] rounded-lg" />
+              <img src={img7} alt="img7" className="lg:w-[22rem] lg:h-[24rem] sm:w-[15rem] sm:h-[13rem] rounded-lg" />
               <p className="font-serif font-bold">Cameron Williamson</p>
               <p className="font-thin">Marketing Head</p>
               <div className="flex gap-1 items-center absolute top-[106rem] left-[53rem]">
-                <img src={fb} alt="fb"  className="w-[1.5rem]" />
-                <img src={insta} alt="insta"  className="w-[1.5rem]" />
-                <img src={ll} alt="ll"  className="w-[1.5rem]" />
+                <img src={fb} alt="fb"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
+                <img src={insta} alt="insta"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
+                <img src={ll} alt="ll"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
               </div>
             </div>
             <div className="flex flex-col gap-1">
-              <img src={img8} alt="img8" className="w-[22rem] h-[24rem] rounded-lg" />
+              <img src={img8} alt="img8" className="lg:w-[22rem] lg:h-[24rem] sm:w-[15rem] sm:h-[13rem] rounded-lg" />
               <p className="font-serif font-bold">Liam Cooper</p>
               <p className="font-thin">Marketing Head</p>
               <div className="flex gap-1 items-center absolute top-[106rem] left-[76rem]">
-                <img src={fb} alt="fb"  className="w-[1.5rem]" />
-                <img src={insta} alt="insta"  className="w-[1.5rem]" />
-                <img src={ll} alt="ll"  className="w-[1.5rem]" />
+                <img src={fb} alt="fb"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
+                <img src={insta} alt="insta"  className="w-[1.5rem] relative lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
+                <img src={ll} alt="ll"  className="w-[1.5rem] relative lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
               </div>
             </div>
           </div>
