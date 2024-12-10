@@ -1,5 +1,3 @@
-
-import "../assets/aboutus/styles.css";
 import img1 from "../assets/aboutus/1.jpg";
 import img2 from "../assets/aboutus/7.png";
 import tick from "../assets/aboutus/tick.png";
