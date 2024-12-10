@@ -4,6 +4,7 @@
   justify-content: center;
 }
 
+/* Heading section styling */
 .heading {
   color: white;
   background-color: black;
@@ -14,23 +15,28 @@
   font-size: 50px;
   font-weight: bold;
 }
+
+/* Portfolio section container */
 .portfolio-section {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
+  padding: 0 20px;
 }
 
+/* Portfolio item styling */
 .portfolio-item {
-  width: calc(35%); /* Two items in a row with some space between them */
+  width: calc(33% - 2rem);
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem; 
 }
 
 .portfolio-image {
-  width: 350px;
-  height: 350px; /* Set image height to 200px */
-  object-fit: cover; /* Ensure the image covers the area without distortion */
+  width: 100%;
+  height: 250px; 
+  object-fit: cover;
   margin-bottom: 10px;
   border-radius: 15px;
 }
@@ -39,14 +45,17 @@ h3 {
   text-align: left;
   font-size: 1.2rem;
   margin: 0;
+  color: #333; 
 }
 
+/* Portfolio paragraph styling */
 p {
   text-align: left;
   font-size: 1rem;
-  color: black;
+  color: #666; 
 }
 
+/* Footer section styling */
 .footer {
   background-color: beige;
   border-radius: 20px;
@@ -56,4 +65,44 @@ p {
   padding-bottom: 2rem;
   font-size: 40px;
   font-weight: bold;
+}
+
+/* Responsive styles */
+
+/* For medium screens (tablets) */
+@media (max-width: 768px) {
+  .portfolio-item {
+    width: calc(50% - 2rem);
+  }
+
+  .heading {
+    font-size: 40px; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .footer {
+    font-size: 30px; 
+  }
+}
+
+/* For small screens (mobiles) */
+@media (max-width: 480px) {
+  .portfolio-item {
+    width: 100%; 
+  }
+
+  .portfolio-image {
+    height: 200px; 
+  }
+
+  .heading {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer {
+    font-size: 25px; 
+  }
 }

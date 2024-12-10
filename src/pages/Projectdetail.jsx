@@ -11,40 +11,33 @@ const Projectdetail = () => {
     <div>
       {/* Hero Section */}
       <section className="hero flex items-center text-white m-1 relative">
-        <div className="container mx-auto px-6 text-center">
-          <img
-            src={image1}
-            alt="Hero"
-            className="mx-auto rounded-xl shadow-lg md:w-[50rem]"
-          />
-          <div className="flex items-center justify-center gap-3 relative lg:bottom-[3rem] lg:left-[22rem] sm:bottom-[-0.5rem] w-fit">
-            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg">
-              <span className="font-bold font-serif">
-                Category: <br />
-              </span>
-              <span className="font-thin">Cloud Solution</span>
-            </div>
-            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg">
-              <span className="font-bold font-serif">
-                Category: <br />
-              </span>
-              <span className="font-thin">Cloud Solution</span>
-            </div>
-            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg">
-              <span className="font-bold font-serif">
-                Category: <br />
-              </span>
-              <span className="font-thin">Cloud Solution</span>
-            </div>
-            <div className="flex flex-col items-start justify-center bg-black w-fit p-4 rounded-lg">
-              <span className="font-bold font-serif">
-                Category: <br />
-              </span>
-              <span className="font-thin">Cloud Solution</span>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container mx-auto px-6 text-center">
+    <img
+      src={image1}
+      alt="Hero"
+      className="mx-auto rounded-xl shadow-lg md:w-[50rem]"
+    />
+    <div className="absolute bottom-[-2rem] left-1/2 transform -translate-x-1/2 flex gap-6">
+      <div className="flex flex-col items-center justify-center bg-black w-fit p-4 rounded-lg">
+        <span className="font-bold font-serif">Category: <br /></span>
+        <span className="font-thin">Cloud Solution</span>
+      </div>
+      <div className="flex flex-col items-center justify-center bg-black w-fit p-4 rounded-lg">
+        <span className="font-bold font-serif">Category: <br /></span>
+        <span className="font-thin">Cloud Solution</span>
+      </div>
+      <div className="flex flex-col items-center justify-center bg-black w-fit p-4 rounded-lg">
+        <span className="font-bold font-serif">Category: <br /></span>
+        <span className="font-thin">Cloud Solution</span>
+      </div>
+      <div className="flex flex-col items-center justify-center bg-black w-fit p-4 rounded-lg">
+        <span className="font-bold font-serif">Category: <br /></span>
+        <span className="font-thin">Cloud Solution</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Description Section */}
       <section className="description py-12 px-6">
@@ -124,7 +117,7 @@ const Projectdetail = () => {
       <section className="recent-projects py-12">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-2xl font-semibold mb-8">Recent Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div className="rounded-lg p-4">
               <img
                 src={image5}

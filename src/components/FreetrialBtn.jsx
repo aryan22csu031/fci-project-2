@@ -2,7 +2,7 @@ import React from "react";
 
 const FreetrialBtn = () => {
 	return (
-		<div className="flex mt-8 gap-2 items-center bg-white rounded-full lg:px-3 lg:py-2 text-black lg:w-[18vw] lg:top-[1rem] lg:left-[32rem] sm:relative sm:top-[-4rem] sm:right-[-10rem] sm:w-[35vw] sm:h-[3rem] sm:p-[1rem]">
+		<div className="flex mt-8 gap-2 items-center bg-white rounded-full lg:px-3 lg:py-2 text-black lg:w-[17vw] lg:top-[1rem] lg:left-[32rem] sm:relative sm:top-[-4rem] sm:right-[-10rem] sm:w-[35vw] sm:h-[3rem] sm:p-[1rem]">
 			<div className="circle bg-black w-7 h-7 rounded-full flex justify-center items-center">
 				<svg
 					width="7"

@@ -73,7 +73,7 @@ const Home2 = () => {
               type="text"
               className="bg-white rounded-full p-3 w-[14rem] h-[3rem] text-end"
             />
-            <h1 className="absolute text-black md:right-[28rem] md:top-[32.1rem] text-[17px] sm:top-[44.8rem] sm:right-[9rem]">
+            <h1 className="absolute text-black md:right-[26rem] md:top-[32.1rem] text-[17px] sm:top-[44.8rem] sm:right-[9rem]">
               Start your Free Trial
             </h1>
             <button className="bg-black flex justify-center items-center rounded-full relative bottom-[3rem] left-2 w-[2rem] h-[2rem] p-2 text-white">

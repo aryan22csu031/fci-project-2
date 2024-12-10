@@ -1,8 +1,10 @@
+
+import "../assets/aboutus/styles.css";
 import img1 from "../assets/aboutus/1.jpg";
 import img2 from "../assets/aboutus/7.png";
 import tick from "../assets/aboutus/tick.png";
 import img3 from "../assets/aboutus/2.jpg";
-import img4 from "../assets/aboutus/profiles.png"
+import img4 from "../assets/aboutus/profiles.png";
 import img5 from "../assets/aboutus/3.jpg";
 import img6 from "../assets/aboutus/4.jpg";
 import img7 from "../assets/aboutus/5.jpg";
@@ -10,6 +12,7 @@ import img8 from "../assets/aboutus/6.jpg";
 import fb from "../assets/facebook.png";
 import insta from "../assets/instagram.png";
 import ll from "../assets/linkedin.png";
+
 const Aboutus = () => {
   return (
     <>
@@ -55,6 +58,7 @@ const Aboutus = () => {
             />
           </div>
         </div>
+
         <div className="flex gap-[4rem] mt-[6rem]">
           <div className="flex flex-col gap-2 justify-center items-center text-center">
             <h1 className="font-serif font-semibold text-3xl">200+</h1>
@@ -81,11 +85,10 @@ const Aboutus = () => {
             </p>
           </div>
         </div>
+
         <div className="flex justify-center items-center mt-[3rem] p-[5rem] gap-[3rem] bg-black">
           <div className="flex flex-col gap-2">
-            <h1 className="text-light-green font-serif font-bold">
-              Our Mission
-            </h1>
+            <h1 className="text-light-green font-serif font-bold">Our Mission</h1>
             <p className="font-serif font-bold text-white text-4xl">
               Boost your with <br /> your business.
             </p>
@@ -131,7 +134,6 @@ const Aboutus = () => {
                 alt="img3"
                 className="overflow-hidden lg:w-[15rem] lg:h-[20rem] opacity-40 rounded-lg sm:w-[13rem] sm:h-[15rem] sm:mb-[3rem]"
               />
-
               <div className="flex gap-6 relative left-[2rem]">
                 <div className="flex flex-col justify-center items-center gap-[1rem] text-white">
                   <h1 className="font-serif font-bold text-4xl">10K</h1>
@@ -148,53 +150,58 @@ const Aboutus = () => {
                 </div>
               </div>
             </div>
+
             <div className="flex flex-col gap-2 relative top-[3rem] right-[3.5rem]">
               <img src={img4} alt="img4" className="w-[8rem]" />
-              <img src={img5} alt="img5" className="w-[13rem] h-[15rem] rounded-lg relative right-[-5rem] top-[7rem]" />
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col w-fit gap-[2rem] my-[3rem] items-center">
-          <div>
-            <h1 className="font-serif font-bold text-4xl">Our team</h1>
-          </div>
-          <div className="flex gap-[1rem] items-center">
-            <div className="flex flex-col gap-1">
-              <img src={img6} alt="img6" className="lg:w-[22rem] lg:h-[24rem] sm:w-[15rem] sm:h-[13rem] rounded-lg" />
-              <p className="font-serif font-bold">Esther Howards</p>
-              <p className="font-thin">Founder</p>
-              <div className="flex gap-1 items-center absolute top-[106rem] left-[30rem]">
-                <img src={fb} alt="fb"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
-                <img src={insta} alt="insta" className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
-                <img src={ll} alt="ll"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
-              </div>
-            </div>
-            <div className="flex flex-col gap-1">
-              <img src={img7} alt="img7" className="lg:w-[22rem] lg:h-[24rem] sm:w-[15rem] sm:h-[13rem] rounded-lg" />
-              <p className="font-serif font-bold">Cameron Williamson</p>
-              <p className="font-thin">Marketing Head</p>
-              <div className="flex gap-1 items-center absolute top-[106rem] left-[53rem]">
-                <img src={fb} alt="fb"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
-                <img src={insta} alt="insta"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
-                <img src={ll} alt="ll"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
-              </div>
-            </div>
-            <div className="flex flex-col gap-1">
-              <img src={img8} alt="img8" className="lg:w-[22rem] lg:h-[24rem] sm:w-[15rem] sm:h-[13rem] rounded-lg" />
-              <p className="font-serif font-bold">Liam Cooper</p>
-              <p className="font-thin">Marketing Head</p>
-              <div className="flex gap-1 items-center absolute top-[106rem] left-[76rem]">
-                <img src={fb} alt="fb"  className="relative w-[1.5rem] lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
-                <img src={insta} alt="insta"  className="w-[1.5rem] relative lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
-                <img src={ll} alt="ll"  className="w-[1.5rem] relative lg:top-[4.5rem] lg:right-[4rem] sm:hidden lg:block" />
+              <img
+                src={img5}
+                alt="img5"
+                className="w-[10rem] rounded-lg mt-[1rem] border-2 border-white"
+              />
+              <div className="flex gap-2 mt-[1rem]">
+                <img
+                  src={fb}
+                  alt="facebook"
+                  className="w-[3rem] cursor-pointer"
+                />
+                <img
+                  src={insta}
+                  alt="instagram"
+                  className="w-[3rem] cursor-pointer"
+                />
+                <img
+                  src={ll}
+                  alt="linkedin"
+                  className="w-[3rem] cursor-pointer"
+                />
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center gap-[2rem] bg-gray-400 rounded-2xl p-[2rem] w-[55rem]">
-          <h1 className="font-serif font-semibold text-4xl text-white">Enough talk, let's get to work</h1>
-          <button className="w-[7rem] p-1 bg-white rounded-2xl">Get in touch</button>
-        </div>
+
+        <div className="team flex flex-col gap-[3rem] justify-center text-center">
+  <h1 className="text-light-green font-serif font-bold text-[2rem]">
+    Meet the team
+  </h1>
+  <p className="font-serif text-xl">Your best partner in business.</p>
+  <div className="team-section flex gap-[2rem] justify-center mt-[2rem]">
+    <img
+      src={img6}
+      alt="team member 1"
+      className="w-[12rem] rounded-full"  // Increased size
+    />
+    <img
+      src={img7}
+      alt="team member 2"
+      className="w-[12rem] rounded-full"  // Increased size
+    />
+    <img
+      src={img8}
+      alt="team member 3"
+      className="w-[12rem] rounded-full"  // Increased size
+    />
+  </div>
+</div>
       </div>
     </>
   );

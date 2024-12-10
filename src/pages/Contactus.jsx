@@ -2,18 +2,18 @@
 function Contactus() {
   return (
     <div className="flex flex-col items-center p-10 bg-gray-80 min-h-screen">
-      {/* Contact Section Code*/}
+      {/* Contact Section Code */}
       <section className="w-full max-w-5xl mt-16">
-        <h2 className="text-4xl font-bold mb-4">Let's talk</h2>
-        <p className="text-gray-600 mb-8">
+        <h2 className="text-4xl font-bold mb-4 text-center md:text-left">Let's talk</h2>
+        <p className="text-gray-600 mb-8 text-center md:text-left">
           We collaborate with thousands of creators,
           <br /> entrepreneurs, and complete legends.
         </p>
 
         <div className="flex flex-col md:flex-row gap-16">
           {/* Contact Info Code */}
-          <div className="flex flex-col space-y-8 w-full md:w-1/2">
-            <div className="flex items-center space-x-4">
+          <div className="flex flex-col space-y-8 w-full md:w-1/2 items-center md:items-start">
+            <div className="flex items-center space-x-4 justify-center md:justify-start">
               <span className="text-gray-800">
                 {/*SVG Email Icon */}
                 <svg
@@ -30,10 +30,9 @@ function Contactus() {
                 <p>hello@example.com</p>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 justify-center md:justify-start">
               <span className="text-gray-800">
                 {/*SVG Phone Icon */}
-
                 <svg
                   width="24"
                   height="24"
@@ -48,7 +47,7 @@ function Contactus() {
                 <p>+123 456 7892</p>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 justify-center md:justify-start">
               <span className="text-gray-800">
                 {/* SVG Location Icon */}
                 <svg
@@ -71,8 +70,8 @@ function Contactus() {
                 </a>
               </div>
             </div>
-            {/* Social Media Links Code*/}
-            <div className="flex space-x-4">
+            {/* Social Media Links Code */}
+            <div className="flex space-x-4 mt-4 justify-center">
               <a href="#facebook" className="text-xl text-gray-800">
                 {/*SVG Facebook Icon */}
                 <svg
@@ -110,8 +109,8 @@ function Contactus() {
           </div>
 
           {/* Contact Form Code */}
-          <form className="w-full md:w-1/2 bg-gray-300  shadow-md rounded-lg p-8 space-y-6 relative -top-10">
-            <div className="flex gap-4">
+          <form className="w-full md:w-1/2 bg-gray-300 shadow-md rounded-lg p-8 space-y-6 relative -top-10">
+            <div className="flex flex-col gap-4 md:flex-row">
               <input
                 type="text"
                 placeholder="First name"
@@ -123,41 +122,34 @@ function Contactus() {
                 className="w-full md:w-1/2 p-3 border border-gray-300 rounded-md"
               />
             </div>
-            <div className="flex gap-4">
-              <input
-                type="email"
-                placeholder="Email"
-                className="w-full md:w-1/2 p-3 border border-gray-300 rounded-md"
-              />
-              <input
-                type="tel"
-                placeholder="Phone"
-                className="w-full md:w-1/2 p-3 border border-gray-300 rounded-md"
-              />
-            </div>
+            <input
+              type="email"
+              placeholder="Email"
+              className="w-full p-3 border border-gray-300 rounded-md"
+            />
             <textarea
-              placeholder="Message"
-              className="w-full p-3 border border-gray-300 rounded-md h-32"
+              placeholder="Your message"
+              className="w-full p-3 border border-gray-300 rounded-md"
+              rows="5"
             ></textarea>
             <button
               type="submit"
-              className="w-full p-4 bg-black text-white rounded-lg"
+              className="w-full py-3 bg-green-600 text-white rounded-md"
             >
-              Submit Now
+              Send message
             </button>
           </form>
         </div>
 
-        {/* Google Maps Embed Code*/}
-        <div>
+        {/* Google Map Section */}
+        <div className="flex justify-center mt-12">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24186.919685306268!2d-74.0132708!3d40.730610!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18c2e389%3A0x1b52b97f439bf20c!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1633613237008!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=..."
             width="100%"
-            height="300"
+            height="450"
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
-            title="Google Maps"
           ></iframe>
         </div>
       </section>
